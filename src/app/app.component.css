@@ -1,0 +1,17 @@
+.align-center{
+    position: absolute;
+    top: 20vh;
+    left: 25vw;
+}
+.btn-sizing{
+    width: 20vw;
+}
+input{
+    display: inline;
+}
+h2{
+    margin-left: 10vw;
+}
+select{
+    margin-left: 6vw;
+}

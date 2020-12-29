@@ -1,0 +1,14 @@
+<div class="container align-center">
+  <h2>Book Finder App</h2>
+  <div class="form-group">
+    <label for="usr">search here</label>
+    <input type="text" class="form-control btn-sizing"  id="user">
+    <button type="button" class="btn btn-primary " (click)="handlesearch()">search</button>
+  </div>
+  
+  
+    <select class="form-control btn-sizing" id="sel1">
+    <option *ngFor="let item of data">{{item.volumeInfo.title}}</option>  
+    </select>
+ 
+</div>
